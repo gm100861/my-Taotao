@@ -1,0 +1,4 @@
+127.0.0.1 - - [22/Jan/2015:09:49:10 +0800] "GET /content/query/list?page=1&categoryId=8&rows=6 HTTP/1.0" 200 2100 http-bio-8081-exec-6 20
+127.0.0.1 - - [22/Jan/2015:12:54:03 +0800] "GET /item/query/292790 HTTP/1.0" 200 346 http-bio-8081-exec-7 10
+127.0.0.1 - - [22/Jan/2015:12:54:03 +0800] "GET /item/query/desc/292790 HTTP/1.0" 200 820 http-bio-8081-exec-8 10
+127.0.0.1 - - [22/Jan/2015:12:54:03 +0800] "GET /item/param/item/query/292790 HTTP/1.0" 200 47 http-bio-8081-exec-9 0
