@@ -1,2 +1,0 @@
-127.0.0.1 - - [23/Jan/2015:03:04:31 +0800] "GET /content/query/list?page=1&categoryId=8&rows=6 HTTP/1.0" 200 2100 http-bio-8081-exec-1 751
-127.0.0.1 - - [23/Jan/2015:08:11:55 +0800] "GET / HTTP/1.0" 404 951 http-bio-8081-exec-2 41
