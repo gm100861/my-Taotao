@@ -85,7 +85,12 @@
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>
 		</dependency>
-
+	<!-- sql server-->
+	<dependency>
+	        <groupId>com.microsoft.mssql</groupId>
+	        <artifactId>sqljdbc</artifactId>
+	        <version>4.2.0</version>
+	 </dependency>
 		<!-- 文件上传组件 -->
 		<dependency>
 			<groupId>commons-fileupload</groupId>
