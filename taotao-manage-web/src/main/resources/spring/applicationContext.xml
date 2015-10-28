@@ -80,6 +80,16 @@
 		<property name="typeAliasesPackage" value="com.taotao.manage.pojo"/>
 	</bean>
 	
-	
+	<!--配置sqlserver-->
+	<bean id="msArticleDataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+		<property name="jdbcUrl" value="jdbc:sqlserver://192.41.81.61:1433;DatabaseName=CB_IMS_M2M" />
+		<property name="user" value="121" />
+		<property name="password" value="121212121212121" />
+		<property name="maxPoolSize" value="20" />
+		<property name="minPoolSize" value="1" />
+		<property name="idleConnectionTestPeriod" value="60" />
+	</bean>
 
 </beans>
